@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 declare const Chart;
 @Component({
-  selector: 'cdk-share-price',
+  selector: 'app-share-price',
   templateUrl: './share-price.component.html',
   styleUrls: ['./share-price.component.scss']
 })
@@ -25,7 +25,7 @@ export class SharePriceComponent implements OnInit {
 
     public  options = {
                     elements : {
-                        
+
                     },
                     scales: {
                         yAxes: [{
@@ -54,7 +54,7 @@ export class SharePriceComponent implements OnInit {
                     plugins: {
                         filler: {
                             propagate: false
-                        }    
+                        }
                     },
                     title: {
                         display: true,
@@ -86,7 +86,7 @@ export class SharePriceComponent implements OnInit {
                 p = this.getRandomInt(20, 60);
             })
         },2500)
-        
+
 
     }
 

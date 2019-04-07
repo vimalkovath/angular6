@@ -56,7 +56,6 @@ import { MatListModule } from '@angular/material/list';
       // SalesListComponent,
       // D3UsaComponent,
       // WorldMapComponent
-
       ],
   exports: [
       DashcardComponent,

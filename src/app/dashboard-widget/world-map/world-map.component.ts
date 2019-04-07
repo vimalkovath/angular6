@@ -2,12 +2,12 @@ import { Component, OnInit, Input } from '@angular/core';
 
 declare const AmCharts;
 @Component({
-  	selector: 'cdk-world-map',
+  	selector: 'app-world-map',
   	templateUrl: './world-map.component.html',
   	styleUrls: ['./world-map.component.scss']
 })
 export class WorldMapComponent implements OnInit {
-	
+
 	@Input() tableData = [];
 	constructor() { }
 
